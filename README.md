@@ -211,17 +211,17 @@ Sample Output :
 Explanation :
 The first diagonal of the matrix is:
 
-11
-    5
-        -12
+    11
+        5
+            -12
 
 Sum across the first diagonal = 11+5-12= 4
 
 The second diagonal of the matrix is:
 
-        4
-    5
-10
+            4
+        5
+    10
 
 Sum across the second diagonal = 4+5+10 = 19 
 Difference: |4-19| =15
