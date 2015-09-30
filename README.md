@@ -1,5 +1,5 @@
-Problem Description
---------------------
+Problem Descriptions
+---------------------
 
 1. Big Decimal
 ---------------
@@ -162,3 +162,63 @@ These are the ranges of the 9 negative subarrays in this sample:
 [3:4]
 Assume that the index is 0 based.
 
+7. Extra Long Factorial
+------------------------
+Problem Statement :
+You are given an integer N. Print the factorial of this number.
+N!=N×(N−1)×(N−2)×⋯×3×2×1
+Note: Factorials of N>20 can't be stored even in a 64−bit long long variable. Big integers must be used for such calculations. Languages like Java, Python, Ruby etc. can handle big integers but we need to write additional code in C/C++ to handle such large values.
+
+Input Format :
+Input consists of a single integer N.
+
+Constraints :
+1≤N≤100
+
+Output Format : 
+Output the factorial of N.
+
+Sample Input :
+25
+
+Sample Output :
+15511210043330985984000000
+
+8. Diagonal Difference
+-----------------------
+Problem Statement :
+You are given a square matrix of size N×N. Calculate the absolute difference of the sums across the two main diagonals.
+
+Input Format :
+The first line contains a single integer N. The next N lines contain N integers (each) describing the matrix.
+
+Constraints :
+1≤N≤100 
+−100≤A[i]≤100
+
+Output Format :
+Output a single integer equal to the absolute difference in the sums across the diagonals.
+
+Sample Input :
+3
+11 2 4
+4 5 6
+10 8 -12
+
+Sample Output :
+15
+
+Explanation :
+The first diagonal of the matrix is:
+11
+    5
+        -12
+Sum across the first diagonal = 11+5-12= 4
+
+The second diagonal of the matrix is:
+
+        4
+    5
+10
+Sum across the second diagonal = 4+5+10 = 19 
+Difference: |4-19| =15
